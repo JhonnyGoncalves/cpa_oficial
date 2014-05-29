@@ -1,0 +1,22 @@
+﻿@model CPA_Project.Areas.Admin.Models.Avaliacao
+@{
+    ViewBag.Title = "Criar Avaliação";
+}
+
+<div class="pure-g">
+    <div class="pure-u-24-24">
+        <form class="pure-form pure-form-stacked" method="POST" action="">
+            <fieldset>
+                <legend>Avaliação</legend>
+
+                <input name="Nome" id="Nome" type="text" placeholder="Nome">
+
+                <input name="Data_criacao" id="Data_criacao" type="date" placeholder="Data Criação">
+
+                <input name="Data_expedicao" id="Data_expedicao" type="date" placeholder="Data Expedição">
+
+                <button type="submit" class="pure-button pure-button-primary">Criar</button>
+            </fieldset>
+        </form>
+    </div>
+</div>

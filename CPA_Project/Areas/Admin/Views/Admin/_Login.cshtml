@@ -1,0 +1,28 @@
+﻿@model CPA_Project.Areas.Admin.Controllers.LoginViewModel
+@{
+    ViewBag.Title = "Área de Login";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutLogin.cshtml";
+}
+<h1>CPA</h1>
+<h2>Administração</h2>
+@*<em id="erro">@ViewBag.erro</em>*@
+<form action="" method="POST">
+    <input type="text" name="Login" id="Login" value="@Model.Login" placeholder="Login" />
+    <br />
+    <br />
+    <input type="password" name="Senha" id="Senha" value="@Model.Senha" placeholder="Senha" />
+    <br />
+    <br />
+    <input type="submit" value="Acessar" />
+</form>
+
+
+@*<form action="" method="POST">
+        @Html.ValidationMessageFor(x => x.Login)
+        @Html.TextBoxFor(x => x.Login, new { @class = "entrada", @placeholder = "Login" })
+
+        @Html.ValidationMessageFor(x => x.Senha)
+        @Html.PasswordFor(x => x.Senha, new { @class = "entrada", @placeholder = "Senha" })
+
+        <input type="submit" value="Entrar" />
+    </form>*@

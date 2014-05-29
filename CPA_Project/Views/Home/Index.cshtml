@@ -1,0 +1,17 @@
+﻿@model CPA_Project.Areas.AlunoArea.Models.Alunos
+@{
+    ViewBag.Title = "Index";
+}
+<a href="/Admin/Admin/_Login">Painel</a>
+
+<h1>CPA</h1>
+<h2>Aluno</h2>
+<form action="" method="POST">
+    @Html.ValidationMessageFor(x => x.CodigoAluno)
+    @Html.TextBoxFor(x => x.CodigoAluno, new { @class = "entrada", @placeholder = "Matrícula" })
+
+    @Html.ValidationMessageFor(x => x.Senha)
+    @Html.PasswordFor(x => x.Senha, new { @class = "entrada", @placeholder = "Senha" })
+
+    <input type="submit" value="Entrar" />
+</form>
