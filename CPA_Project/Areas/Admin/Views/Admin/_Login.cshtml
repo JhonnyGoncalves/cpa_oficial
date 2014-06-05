@@ -1,28 +1,37 @@
 ﻿@model CPA_Project.Areas.Admin.Controllers.LoginViewModel
 @{
-    ViewBag.Title = "Área de Login";
+    ViewBag.Title = "CPA - Admin";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutLogin.cshtml";
 }
-<h1>CPA</h1>
-<h2>Administração</h2>
-@*<em id="erro">@ViewBag.erro</em>*@
-<form action="" method="POST">
-    <input type="text" name="Login" id="Login" value="@Model.Login" placeholder="Login" />
-    <br />
-    <br />
-    <input type="password" name="Senha" id="Senha" value="@Model.Senha" placeholder="Senha" />
-    <br />
-    <br />
-    <input type="submit" value="Acessar" />
-</form>
-
-
-@*<form action="" method="POST">
-        @Html.ValidationMessageFor(x => x.Login)
-        @Html.TextBoxFor(x => x.Login, new { @class = "entrada", @placeholder = "Login" })
-
-        @Html.ValidationMessageFor(x => x.Senha)
-        @Html.PasswordFor(x => x.Senha, new { @class = "entrada", @placeholder = "Senha" })
-
-        <input type="submit" value="Entrar" />
-    </form>*@
+<a href="~/">Aluno</a>
+<div>
+    <div id="logo" class="center">
+        <img src="~/Content/assets/img/novaLogo-admin.png" alt="logo" class="center" height="150" width="150" />
+    </div>
+    <!-- LOGIN -->
+    <div id="login">
+        <form method="POST" action="" id="loginform" class="form-vertical no-padding no-margin">
+            <p class="center">Informe seu usuário e senha</p>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-user"></i></span>
+                        <input name="Login" type="text" id="Login" placeholder="Nome" />
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-lock"></i></span>
+                        <input name="Senha" type="password" id="Senha" placeholder="Senha" />
+                    </div>
+                </div>
+            </div>
+            <input type="submit" name="btnLogar" value="ENTRAR" id="btnLogar" class="btn btn-block btn-inverse" style="clear: left; width: 100%; height: 32px; font-size: 13px;" />
+        </form>
+    </div>
+    <!-- COPYRIGHT -->
+    <div id="login-copyright">
+        2014 &copy; CPA ONLINE
+    </div>

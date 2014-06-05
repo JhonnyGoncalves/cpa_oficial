@@ -27,8 +27,8 @@ namespace CPA_Project.Connect_DB
             cmd.ExecuteNonQuery();
             cmd.CommandText = "SELECT @@IDENTITY";
             var x = cmd.ExecuteScalar();
-            var a = (decimal) x;
-            return int.Parse(a);
+            var a = Convert.ToInt16(x);
+            return a;
         }
 
         public SqlDataReader ComandoDataReader(string strQuery)

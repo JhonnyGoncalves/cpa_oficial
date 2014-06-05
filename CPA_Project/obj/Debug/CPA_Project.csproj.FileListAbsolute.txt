@@ -262,3 +262,38 @@ C:\Users\NOTEBOOK\Downloads\cpa_project-master\CPA_Project\bin\System.Web.Mvc.xm
 C:\Users\NOTEBOOK\Downloads\cpa_project-master\CPA_Project\obj\Debug\CPA_Project.csprojResolveAssemblyReference.cache
 C:\Users\NOTEBOOK\Downloads\cpa_project-master\CPA_Project\obj\Debug\CPA_Project.dll
 C:\Users\NOTEBOOK\Downloads\cpa_project-master\CPA_Project\obj\Debug\CPA_Project.pdb
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\obj\Debug\CPA_Project.csprojResolveAssemblyReference.cache
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\obj\Debug\CPA_Project.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\CPA_Project.dll.config
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\CPA_Project.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\CPA_Project.pdb
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.Security.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Newtonsoft.Json.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Owin.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Helpers.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Mvc.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Razor.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Webpages.Deployment.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Webpages.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Webpages.Razor.dll
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.Security.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\Newtonsoft.Json.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Razor.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Webpages.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Webpages.Deployment.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Webpages.Razor.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Helpers.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\bin\System.Web.Mvc.xml
+C:\Users\NOTEBOOK\Documents\Visual Studio 2013\Projects\cpa_oficial\cpa_oficial\CPA_Project\obj\Debug\CPA_Project.pdb

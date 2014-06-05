@@ -1,17 +1,36 @@
 ﻿@model CPA_Project.Areas.AlunoArea.Models.Alunos
 @{
-    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Login.cshtml";
 }
 <a href="/Admin/Admin/_Login">Painel</a>
-
-<h1>CPA</h1>
-<h2>Aluno</h2>
-<form action="" method="POST">
-    @Html.ValidationMessageFor(x => x.CodigoAluno)
-    @Html.TextBoxFor(x => x.CodigoAluno, new { @class = "entrada", @placeholder = "Matrícula" })
-
-    @Html.ValidationMessageFor(x => x.Senha)
-    @Html.PasswordFor(x => x.Senha, new { @class = "entrada", @placeholder = "Senha" })
-
-    <input type="submit" value="Entrar" />
-</form>
+    <div>
+        <div id="logo" class="center">
+            <img src="~/Content/assets/img/novaLogo.png" alt="logo" class="center" height="150" width="150" />
+        </div>
+        <!-- LOGIN -->
+        <div id="login">
+            <form method="POST" action="" id="loginform" class="form-vertical no-padding no-margin">
+                <p class="center">Informe seu usuário e senha</p>
+                <div class="control-group">
+                    <div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-user"></i></span>
+                            <input name="CodigoAluno" type="text" id="CodigoAluno" placeholder="Matrícula" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-lock"></i></span>
+                            <input name="Senha" type="password" id="Senha" placeholder="Senha" />
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" name="btnLogar" value="ENTRAR" id="btnLogar" class="btn btn-block btn-inverse" style="clear: left; width: 100%; height: 32px; font-size: 13px;" />
+            </form>
+        </div>
+        <!-- COPYRIGHT -->
+        <div id="login-copyright">
+            2014 &copy; CPA ONLINE
+        </div>

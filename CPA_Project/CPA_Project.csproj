@@ -143,8 +143,32 @@
     <Content Include="Areas\Content\Pure\pure.css" />
     <Content Include="Areas\Content\Pure\tables-min.css" />
     <Content Include="Areas\Content\Pure\tables.css" />
-    <Content Include="Content\img\Construcao.png" />
-    <Content Include="Content\Login\Login.css" />
+    <Content Include="Content\assets\css\pages\login.css" />
+    <Content Include="Content\assets\css\style-responsive.css" />
+    <Content Include="Content\assets\css\style.css" />
+    <Content Include="Content\assets\css\themes\default.css" />
+    <Content Include="Content\assets\img\bg-default.png" />
+    <Content Include="Content\assets\img\body-bg.png" />
+    <Content Include="Content\assets\img\favicon.png" />
+    <Content Include="Content\assets\img\novaLogo-admin.png" />
+    <Content Include="Content\assets\img\novaLogo.png" />
+    <Content Include="Content\assets\img\overlay-icon.png" />
+    <Content Include="Content\assets\plugins\bootstrap\css\bootstrap-responsive.min.css" />
+    <Content Include="Content\assets\plugins\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\assets\plugins\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="Content\assets\plugins\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="Content\assets\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\assets\plugins\breakpoints\breakpoints.js" />
+    <Content Include="Content\assets\plugins\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\assets\plugins\jquery-1.8.3.min.js" />
+    <Content Include="Content\assets\plugins\jquery-ui\jquery-ui-1.10.1.custom.min.js" />
+    <Content Include="Content\assets\plugins\jquery.blockui.js" />
+    <Content Include="Content\assets\plugins\jquery.cookie.js" />
+    <Content Include="Content\assets\plugins\uniform\css\uniform.default.css" />
+    <Content Include="Content\assets\plugins\uniform\images\bg-input-focus.png" />
+    <Content Include="Content\assets\plugins\uniform\images\bg-input.png" />
+    <Content Include="Content\assets\plugins\uniform\images\sprite.png" />
+    <Content Include="Content\assets\plugins\uniform\jquery.uniform.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Areas\Admin\Views\web.config" />
@@ -168,6 +192,10 @@
     <Content Include="Areas\Content\Pure\LICENSE.md" />
     <Content Include="Areas\Content\Pure\README.md" />
     <Content Include="Areas\Admin\Views\Avaliacao\EscolherQuestao.cshtml" />
+    <Content Include="Content\assets\plugins\font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="Content\assets\plugins\font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="Content\assets\plugins\font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="Content\assets\plugins\font-awesome\font\fontawesome-webfontd41d.eot" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -184,7 +212,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -212,6 +239,8 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
