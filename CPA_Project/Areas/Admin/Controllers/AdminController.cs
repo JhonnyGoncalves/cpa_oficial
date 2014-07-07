@@ -1,20 +1,37 @@
 ﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
+using CPA_Project.Areas.Admin.Helpers;
 using CPA_Project.Areas.Admin.Models;
 using CPA_Project.Connect_DB;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 using Microsoft.Owin;
+using System.Security.Cryptography.X509Certificates;
+using System.Web;
+using System.Web.Mvc;
+using CPA_Project.Areas.AlunoArea.Helpers;
+using CPA_Project.Areas.AlunoArea.Models;
+using CPA_Project.Connect_DB;
 
 namespace CPA_Project.Areas.Admin.Controllers
 {
     [Authorize]
     public class AdminController : Controller
     {
+        public static Contexto Contexto = new Contexto();
+
+        public readonly QuestaoApp QuestaoAdmin = new QuestaoApp(Contexto);
+
         public ActionResult _Index()
+        {
+            return View();
+        }
+
+        public ActionResult Cadastrar()
         {
             return View();
         }
@@ -24,7 +41,6 @@ namespace CPA_Project.Areas.Admin.Controllers
         {
             return View(new LoginViewModel());
         }
-
 
         [AllowAnonymous]
         [HttpPost]
@@ -71,7 +87,6 @@ namespace CPA_Project.Areas.Admin.Controllers
         public string Senha { get; set; }
         public string Permissao { get; set; }
     }
-
     public static class RetornoDadosUsuario
     {
         public static Administrador Dados()

@@ -8,7 +8,6 @@ namespace CPA_Project.Areas.AlunoArea.Helpers
     public class Alunoapp
     {
         private Contexto _contexto;
-
         public List<Alunos> Alunos()
         {
             using (_contexto = new Contexto())

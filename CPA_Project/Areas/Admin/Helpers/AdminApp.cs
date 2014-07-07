@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Data.SqlClient;
 using CPA_Project.Areas.Admin.Models;
+using CPA_Project.Connect_DB;
 
-namespace CPA_Project.Connect_DB
+namespace CPA_Project.Areas.Admin.Helpers
 {
     public class AdminApp
     {

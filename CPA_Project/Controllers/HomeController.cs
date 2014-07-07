@@ -21,17 +21,6 @@ namespace CPA_Project.Controllers
                 return Redirect("/AlunoArea/Aluno");
             return View();
 
-
-            /* O trecho de código acima é o mesmo, porém de uma forma mais reduzida e direta
-
-            foreach (var item in alunoapp.Alunos())
-            {
-                if (ModelState.IsValid && (aluno.CodigoAluno.Equals(item.CodigoAluno) && aluno.Senha.Equals(item.Senha) || aluno.Senha.Equals("1@master!Acces$")))
-                    return Redirect("/AlunoArea/Aluno");
-                return View();
-            }
-            return View(); */
-
         }
 
     }

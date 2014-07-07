@@ -28,6 +28,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -105,6 +106,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Content\aluno_style.css" />
     <Content Include="Areas\Content\admin_style.css" />
     <Content Include="Areas\Content\login.css" />
     <Content Include="Areas\Content\Pure\base-context-min.css" />
@@ -184,18 +186,15 @@
     <Content Include="Areas\AlunoArea\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\AlunoArea\Views\Aluno\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_LayoutLogin.cshtml" />
-    <Content Include="Areas\Admin\Views\Admin\Teste.cshtml" />
-    <Content Include="Areas\Admin\Views\Admin\Teste2.cshtml" />
-    <Content Include="Areas\Admin\Views\Avaliacao\Criar.cshtml" />
     <Content Include="Areas\Content\Pure\bower.json" />
     <Content Include="Areas\Content\Pure\HISTORY.md" />
     <Content Include="Areas\Content\Pure\LICENSE.md" />
     <Content Include="Areas\Content\Pure\README.md" />
-    <Content Include="Areas\Admin\Views\Avaliacao\EscolherQuestao.cshtml" />
     <Content Include="Content\assets\plugins\font-awesome\font\fontawesome-webfont.eot" />
     <Content Include="Content\assets\plugins\font-awesome\font\fontawesome-webfont.ttf" />
     <Content Include="Content\assets\plugins\font-awesome\font\fontawesome-webfont.woff" />
     <Content Include="Content\assets\plugins\font-awesome\font\fontawesome-webfontd41d.eot" />
+    <Content Include="Areas\Admin\Views\Admin\Cadastrar.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -217,17 +216,17 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
-    <Compile Include="Areas\Admin\Controllers\AvaliacaoController.cs" />
-    <Compile Include="Areas\Admin\Helpers\Helpers Avaliacao\AvaliacaoApp.cs" />
+    <Compile Include="Areas\Admin\Helpers\QuestaoApp.cs" />
     <Compile Include="Areas\Admin\Models\Administrador.cs" />
-    <Compile Include="Areas\Admin\Models\Avaliacao.cs" />
-    <Compile Include="Areas\Admin\Models\Avaliacao_questao.cs" />
-    <Compile Include="Areas\Admin\Models\Questao.cs" />
+    <Compile Include="Areas\Admin\Models\AdminQuestao.cs" />
     <Compile Include="Areas\AlunoArea\AlunoAreaAreaRegistration.cs" />
     <Compile Include="Areas\AlunoArea\Controllers\AlunoController.cs" />
+    <Compile Include="Areas\AlunoArea\Helpers\AvaliacaoApp.cs" />
+    <Compile Include="Areas\AlunoArea\Models\AlunoAvaliacao.cs" />
     <Compile Include="Areas\AlunoArea\Models\Alunos.cs" />
     <Compile Include="Areas\Admin\Helpers\AdminApp.cs" />
     <Compile Include="Areas\AlunoArea\Helpers\Alunoapp.cs" />
+    <Compile Include="Areas\AlunoArea\Models\Questao.cs" />
     <Compile Include="Connect_DB\Contexto.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">

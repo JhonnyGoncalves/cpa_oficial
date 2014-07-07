@@ -7,40 +7,29 @@ namespace CPA_Project.Connect_DB
 {
     public class Contexto : IDisposable
     {
+        private readonly SqlConnection _connection;
         public Contexto()
         {
-            ConnectionDb = new SqlConnection(ConfigurationManager.ConnectionStrings["BancoCPA"].ConnectionString);
-            ConnectionDb.Open();
+            _connection = new SqlConnection(ConfigurationManager.ConnectionStrings["BancoCPA"].ConnectionString);
+            _connection.Open();
         }
-
-        public SqlConnection ConnectionDb { get; private set; }
 
         public void ComandoNonQuery(string strQuery)
         {
-            var cmd = new SqlCommand(strQuery, ConnectionDb);
+            var cmd = new SqlCommand(strQuery, _connection);
             cmd.ExecuteNonQuery();
-        }
-
-        public int ComandoNonQueryINSERT(string strQuery)
-        {
-            var cmd = new SqlCommand(strQuery, ConnectionDb);
-            cmd.ExecuteNonQuery();
-            cmd.CommandText = "SELECT @@IDENTITY";
-            var x = cmd.ExecuteScalar();
-            var a = Convert.ToInt16(x);
-            return a;
         }
 
         public SqlDataReader ComandoDataReader(string strQuery)
         {
-            var cmd = new SqlCommand(strQuery, ConnectionDb);
+            var cmd = new SqlCommand(strQuery, _connection);
             return cmd.ExecuteReader();
         }
 
         public void Dispose()
         {
-            if (ConnectionDb.State.Equals(ConnectionState.Open))
-                ConnectionDb.Close();
+            if (_connection.State.Equals(ConnectionState.Open))
+                _connection.Close();
         }
     }
 }

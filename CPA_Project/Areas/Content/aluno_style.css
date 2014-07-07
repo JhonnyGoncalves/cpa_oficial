@@ -1,0 +1,19 @@
+﻿body {
+    margin: 0 20px 0 20px;
+    color: #FFF;
+    background-color:#3c3c3c !important;
+    background-image: url(~/Content/assets/img/bg-default.png) !important;
+}
+header {
+    background-color: :#3c3c3;
+	margin: 0 auto;
+	font-size: 18px;
+	color: #FFF;
+	padding: 40px 0 40px 0;
+}
+#logo {
+    margin: 0 0 0 43%;
+}
+#copyright {
+    margin: 0 0 0 43%;
+}
